@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  height: 100%;
+  width: 100%;
 }
+.Contact__Us{
+  background-color:white;
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  border-radius: 9px;
+  box-shadow: 1px 1px 1px 1px grey;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2{
+  padding: 3rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2:hover{
+  color: rgb(224, 18, 29);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.body  {
+margin-left: 2rem;
+margin-top: 4rem;
+padding-top: 2rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(4, 71, 71);
+}
+.body > input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.body > label{
+  padding-top: 3rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+.body> textarea {
+background-color: transparent;
+border: none;
+outline: none;
+border-bottom: 0.2px solid black;
+}
+.btn{
+  background-color: #FF3D68;
+  margin: 3rem;
+  height: 40px;
+  width: 90px;
   color: white;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 2rem;
+  justify-content:space-between;
+  border: none;
+  border-radius: 70px;
+  box-shadow: 2px 2px 2px 2px#FF3D68;
 }
-
-.App-link {
-  color: #61dafb;
+.btn:hover{
+  background-color: goldenrod;
+  box-shadow: 2px 2px 2px 2px goldenrod;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  margin-left: 3rem;
+  font-size: 12px;
+}
+a{
+  color: #FF3D68;
+  text-decoration: none;
 }
